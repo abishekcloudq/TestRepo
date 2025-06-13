@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : Abishek ND
+ * @group             : 
+ * @last modified on  : 06-13-2025
+ * @last modified by  : Abishek ND
+**/
 public virtual class MapLearning {
     protected Integer rollno;
     protected String department;
@@ -58,5 +65,5 @@ public virtual class MapLearning {
         system.debug('Total'+ total);
         system.debug('Result' + result);
         system.debug('******************');
-    }
+    }   
 }
