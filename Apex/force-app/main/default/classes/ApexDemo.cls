@@ -8,4 +8,5 @@
 public with sharing class ApexDemo {
     Integer rollno;
     String department;
+    String Name;
 }
