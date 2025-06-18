@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Abishek ND
  * @group             : 
- * @last modified on  : 06-13-2025
+ * @last modified on  : 06-18-2025
  * @last modified by  : Abishek ND
 **/
 public virtual class MapLearning {
@@ -14,11 +14,21 @@ public virtual class MapLearning {
     String result;
     final Integer passmark=35;
     
+    /**
+    * @description 
+    * @author Abishek ND | 06-18-2025 
+    * @return List<Account> 
+    **/
     Public static List<Account> accList(){
         List<Account> acList= [SELECT Type, Phone,AccountNumber FROM Account where Phone!=null AND AccountNumber!=null];
         return acList;
     }
     
+    /**
+    * @description 
+    * @author Abishek ND | 06-18-2025 
+    * @return List<Opportunity> 
+    **/
     public static List<Opportunity> aclist(){
         List<Opportunity> lstofopp=[Select Name,Amount,Type FROM Opportunity];
         Map<Id,Opportunity> mlist= new map<Id,Opportunity>(lstofopp);
@@ -30,6 +40,10 @@ public virtual class MapLearning {
         return lstofopp;
     }
    
+    /**
+    * @description 
+    * @author Abishek ND | 06-18-2025 
+    **/
     public MapLearning(){}
    public MapLearning(Integer rollno,String department,String Name, List<Integer> marks) {
         this.rollno = rollno;
