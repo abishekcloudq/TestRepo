@@ -1,7 +1,7 @@
 /**
  * @description       : 
  * @author            : Abishek ND
- * @last modified on  : 06-13-2025
+ * @last modified on  : 06-23-2025
  * @last modified by  : Abishek ND
 **/
 public class OopsClass {
@@ -15,9 +15,5 @@ public class OopsClass {
     }
     public List<String> retrunString(List<String> str){
        		return str;
-    }
-
-    Public void getnumbers(){
-
     }
 }
