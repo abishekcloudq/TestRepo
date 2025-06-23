@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : Abishek ND
+ * @group             : 
+ * @last modified on  : 06-23-2025
+ * @last modified by  : Abishek ND
+**/
 public class ApexDemo{
 	
 	Integer x=10;  // class-level variable by default as Private/ Non- static Variable 
@@ -16,7 +23,5 @@ public class ApexDemo{
 	
 	system.debug('😊😊' + this.x);
 	system.debug('😂😂😁' + y);
-	
 	}
-      
 }
